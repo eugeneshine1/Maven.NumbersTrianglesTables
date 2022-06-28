@@ -8,7 +8,7 @@ public class NumberUtilitiesTest {
     public void testGetRange1A() {
         // : Given
         String expected = "0123456789";
-        int stop = 11;
+        int stop = 10;
 
         // : When
         String actual = NumberUtilities.getRange(stop);
@@ -182,6 +182,7 @@ public class NumberUtilitiesTest {
 
         // : Then
         Assert.assertEquals(expected, actual);
+
     }
 
     @Test
